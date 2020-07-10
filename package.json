@@ -1,0 +1,20 @@
+{
+  "name": "codephoenix",
+  "version": "1.0.1",
+  "description": "services profesionals of sofware web",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "JonatanHN",
+    "Webservices",
+    "Frelance",
+    "Proyects"
+  ],
+  "author": "JonatanHN",
+  "license": "ISC",
+  "dependencies": {
+    "tippy.js": "^6.2.3"
+  }
+}

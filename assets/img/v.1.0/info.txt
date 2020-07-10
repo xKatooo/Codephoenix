@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: FredokaOne-Regular
+font link: https://fonts.google.com/specimen/Fredoka+One
+font author: Milena Brandao
+font author site: mailto:milenabbrandao@gmail.com
+
+
+icon designer: Arthur Shlain
+icon designer link: /ArtZ91
+        
+{"bg":"#00242C","icon":"#81E291","font":"#FFFFFF","slogan":"#ffffff"}
+      

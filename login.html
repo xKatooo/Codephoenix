@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta name="description" content="Access to login or register for users"/>
+    <meta name="keywords" content="Login Codephoenix"/>
+    <meta name="author" content="JonatanHN" />
+    <meta name="copyright" content="Todos los derechos reservador por JonatanHN"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:description" content="Access to login or register for users" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/img/v.1.0/cover.png" />
+    <!-- Styles -->
+    <link rel="stylesheet" 
+    href="css/normalize.css">
+    <link rel="stylesheet" 
+    href="css/login.css">
+    <link rel="stylesheet" 
+    href="css/loader-min.css">
+    <!-- Title -->
+    <title>Access to aplication</title>
+    <!-- Favicon -->
+   	<link rel="icon" 
+    href="assets/img/v.1.0/profile.png">
+    <!-- Icons -->
+	<link rel="stylesheet" 
+	href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/icons/style.css">
+    <!-- map -->
+
+    <!-- Scripts -->
+  
+  </head>
+  <body>
+  	<div class="loader" id="loader">
+  		<div class="lds-ripple"><div></div><div></div></div>
+  	</div>
+  	<div class="all">
+  	<div class="section-form">
+  	<form action="#" method="post" class="form-camps register" id="signup-form">
+  		<div class="title-form">
+  			<h2 class="title-value-form">Registrate</h2>
+  		</div>
+  		<div class="data-form">
+  		<input type="email" required class="data-user email-camp" placeholder="Ingresa tu Email" id="signup-email">
+  		<input type="password" required class="data-user pass-camp" placeholder="Ingresa tu Contraseña" id="signup-password">
+  		<button type="submit" class="send p-b">
+		<span class="icon icon-send"></span>
+		</button>
+		</div>  		
+  	</form>
+  	<form action="#" method="post" class="form-camps login" id="login-form">
+  		<div class="title-form">
+  			<h2 class="title-value-form">Logueate</h2>
+  		</div>
+  		<div class="data-form">
+  		<input type="email" class="data-user email-camp" placeholder="Ingresa tu Email" id="login-email">
+  		<input type="password" class="data-user pass-camp" placeholder="Ingresa tu Contraseña" id="login-password">
+  		<button class="login-tokens google-tk" id="googleLogin">
+		<span class="icon icon-google"></span>
+  		Google
+  		</button>
+  		<button class="login-tokens facebook-tk" id="tkf">
+  		<span class="icon icon-facebook1"></span>
+  		Facebook
+  		</button>
+  		<button class="login-tokens github-tk" id="tkhub">
+		<span class="icon icon-github1"></span>
+  		Github
+  		</button>
+		<button type="submit" class="send p-b">
+		<span class="icon icon-send"></span>
+		</button>
+		</div>
+  	</form>
+  	</div>
+  	</div>
+    <div class="container p-4">
+    <div class="row">
+        <div class="col-md-6 offset-3">
+            <ul class="list-group posts">
+                
+               
+            </ul>
+        </div>    
+   	 </div>
+	</div>
+  	<!-- firebase -->
+  	<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script 
+    src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js">
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+    <script src="js/api.js"></script>
+    <!-- scripts -->
+   	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<script src="https://unpkg.com/tippy.js@6"></script>
+	<script src="js/vuejs.js"></script>
+  	<!-- <script src="js/main.js"></script> -->
+  	<script src="js/tooltips.js"></script>
+  	<script src="js/loader.js"></script>
+  	<script src="js/main.js"></script>
+  </body>
+</html>

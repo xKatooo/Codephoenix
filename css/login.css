@@ -1,0 +1,155 @@
+/*all fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balsamiq+Sans:wght@400;700&family=Fredoka+One&family=Krona+One&family=Pacifico&family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap');
+
+/*
+    Fuentes utilizadas
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Krona One', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+    ~end fonts use~
+*/
+/*animationes*/
+
+/*all universal styles*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	outline:none;
+}
+p::selection, h1::selection,h2::selection,
+h3::selection,h4::selection,
+h5::selection,h6::selection, a::selection, li::selection, i::selection, a::selection, button::selection{
+  cursor:alias;
+  background: none;
+  color:#2ecc71;
+}
+img::selection{
+  background:none;
+  color: none;
+}
+h1,h2,h3,h4,h5,h6,p,li,a,div{
+  font-family: 'Fredoka One', cursive;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+li{
+  list-style:none;
+}
+/*all custom styles*/
+.all{
+	background:url(../assets/img/fondo/more-leaves.png);
+	width:100%;
+	height:100vh;
+}
+.login{
+	
+}
+.register{
+	display:none !important;
+	position:relative;
+	top: 50px;
+}
+.section-form{
+	position: relative;
+	top:150px;
+	width: 25%;
+	margin:0px auto;
+}
+.title-form{
+	width:100%;
+}
+.title-value-form{
+	width:43%;
+	margin:0px auto;
+	color: #2ecc71;
+	letter-spacing: 2px;
+}
+.form-camps{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	background:rgba(34,34,34, .9);
+	padding:10px;
+	border-radius:4px;
+}
+.data-form{
+	display:flex;
+	flex-direction:column;
+}
+.data-user{
+	width:90%;
+	margin:10px auto 0px auto;
+	padding:10px 0px 10px 25px;
+	background:transparent;
+	color:#2ecc71;
+	border:none;
+	border-bottom:2px solid #2ecc71;
+	transition: .7s all ease;
+}
+.data-user:focus{
+	border-bottom:2px solid tomato;
+}
+.email-camp{
+	background-image: url(../assets/img/user.png);
+	background-repeat:no-repeat;
+	background-size:20px;
+	background-position: 0px 10px; 
+}
+.pass-camp{
+	background-image: url(../assets/img/password.png);
+	background-repeat:no-repeat;
+	background-size:20px;
+	background-position: 0px 10px; 	
+}
+.send{
+	width:90%;
+	margin:20px auto 5px auto;
+	padding:10px;
+	cursor:pointer;
+	background:#333;
+	border: 2px solid #222;
+	color:#222;
+	border-radius:4px;
+	transition: .7s all ease;
+}
+.send:hover{
+	border:2px solid #2ecc71;
+	background:#222;
+	color: #2ecc71;
+}
+.login-tokens{
+	width:90%;
+	padding:10px;
+	margin:5px auto 0px auto;
+	background:#333;
+	border: 2px solid #222;
+	color:#222;
+	cursor:pointer;
+	border-radius:4px;
+	transition: .7s all ease;
+}
+.google-tk{
+	margin: 20px auto 0px auto;
+}
+.google-tk:hover{
+	border: 2px solid #e94335;
+	color:#e94335;	
+}
+.github-tk:hover{
+	border:2px solid #576574;
+	background:#222;
+	color: #576574;
+}
+.facebook-tk:hover{
+	border: 2px solid #3a559f;
+	color:#3a559f;
+}
+.p-b{
+	margin-bottom: 20px;
+}

@@ -1,0 +1,194 @@
+/*all fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balsamiq+Sans:wght@400;700&family=Fredoka+One&family=Krona+One&family=Pacifico&family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap');
+
+/*
+    Fuentes utilizadas
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Krona One', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+    ~end fonts use~
+*/
+/*animationes*/
+
+/*all universal styles*/
+*{
+  margin:0;
+  padding:0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+  background: #34495e;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+li{
+  list-style:none;
+}
+h1,h2,h3,h4,h5,h6,p,li,a,div{
+  font-family: 'Fredoka One', cursive;
+}
+p::selection, h1::selection,h2::selection,
+h3::selection,h4::selection,
+h5::selection,h6::selection, a::selection, li::selection, i::selection, a::selection, button::selection{
+  cursor:alias;
+  background: none;
+  color:#2ecc71;
+}
+img::selection{
+  background:none;
+  color: none;
+}
+/*all custom styles*/
+.dark{
+  background:#3f3f3f;
+  transition: .5s ease all;
+}
+.disable{
+  display:none;
+}
+.data{
+  position:relative;
+  width:100%;
+  height:100vh;
+}
+.enlaces{
+  font-family: 'Fredoka One', cursive;
+  font-size: 17px;
+  transition: all .3s ease;
+  color: #222;
+}
+.enlaces:hover{
+  color:#2ecc71;
+  text-shadow: 1px 1px 2px #333;
+}
+.vr-ow{
+  width:100%;
+  display:flex;
+}
+.world-img{
+  width:400px;
+  margin:80px 0px 0px 100px;
+}
+.world-img:hover{
+  cursor:no-drop;
+}
+.world-sect{
+  width:50%;
+}
+.description-site{
+  width:50%;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+.title-world{
+  width:100%;
+  font-size: 40px;
+  color: #222;
+  position:relative;
+  top:100px;
+  text-shadow: 2px 2px 5px #333;
+}
+.text-description-world{
+  position:relative;
+  top: 120px;
+  margin: 0px 50px 0px 0px;
+  color:#222;
+  text-shadow: 0px 0px 2px #333;
+}
+.menu-desktop{
+  width:100%;
+  bottom:15px;
+  position: absolute;
+  display:flex;
+  justify-content: space-evenly;
+}
+.logo{
+  width: 150px;
+}
+.data-center{
+  position:relative;
+  top:15px;
+  width:80%;
+  margin: 0px auto;
+  display:flex;
+  justify-content:center;
+}
+.theme-opcion{
+  border:none;
+  cursor:pointer;
+  position:absolute;
+  top:20px;
+  right:20px;
+}
+
+.switch{
+  background:#222;
+  border-radius:1000px;
+  border:none;
+  position:relative;
+  cursor:pointer;
+  display:flex;
+}
+.switch > span{
+  width:30px;
+  height:30px;
+  line-height:30px;
+  display:block;
+  background:none;
+  color:#2ecc71;
+}
+.switch::after{
+  content:"";
+  display:block;
+  width:30px;
+  height:30px;
+  position:absolute;
+  background:#2ecc71;
+  top:0px;
+  left:0px;
+  right:unset;
+  border-radius:100px;
+  transition:.3s ease all;
+  box-shadow:0px 0px 2px 2px rgba(0,0,0,.2);
+}
+.switch.active{
+  background:#34495e;
+  color: #000;
+}
+.switch.active::after{
+  right:0px;
+  left:unset;
+}
+.theme-opcion{
+  display:flex;
+}
+.session{
+  border:none;
+  background:transparent;
+  cursor:pointer;
+}
+.session,
+.switch{
+  margin:0px 10px;
+}
+.btn-usuario{
+  font-size: 30px;
+}
+.btn-usuario:hover{
+  color:#2ecc71;
+}
+.menu-mobile{
+  display:none;
+}
+.menu-mobile > .menu-mb{
+  display:none;
+}
